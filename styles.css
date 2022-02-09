@@ -1,0 +1,34 @@
+.navbar{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(234,143,45,1) 34%, rgba(45,234,149,1) 87%);
+}
+
+.buttons {
+    min-width: 10px;
+    display: flex;
+    justify-content: space-around;
+    float: right;
+  }
+
+  .buttons a {
+    text-decoration: none;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #364a55;
+    color:blue;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease-in-out;
+    margin: 10px;
+    margin-top: 15px;
+    
+  }
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+header{
+  background-color: blueviolet;
+}
