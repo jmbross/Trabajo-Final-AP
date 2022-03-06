@@ -72,9 +72,6 @@ body{
 .skills{
   margin-bottom: 30px;
 }
-
-
-
 .progress{
   width: 150px;
   height: 150px;
@@ -145,7 +142,7 @@ body{
   position: absolute;
 }
 .progress.blue .progress-bar{
-  border-color: #26abfd;
+  border-color: #2646fd;
 }
 .progress.blue .progress-left .progress-bar{
   animation: loading-2 1.5s linear forwards 1.8s;
@@ -164,10 +161,42 @@ body{
 .progress.orange .progress-left .progress-bar{
   animation: loading-2 1.5s linear forwards 1.8s;
 }
-
-
-
-
+.progress.brown .progress-bar{
+  border-color: #5e2f21;
+}
+.progress.brown .progress-left .progress-bar{
+  animation: loading-7 1.5s linear forwards 1.8s;
+}
+.progress.coral .progress-bar{
+  border-color: #c45736;
+}
+.progress.coral .progress-left .progress-bar{
+  animation: loading-6 1.5s linear forwards 1.8s;
+}
+.progress.magenta .progress-bar{
+  border-color: #9e1e7e;
+}
+.progress.magenta .progress-left .progress-bar{
+  animation: loading-6 1.5s linear forwards 1.8s;
+}
+.progress.indigo .progress-bar{
+  border-color: #0b088f;
+}
+.progress.indigo .progress-left .progress-bar{
+  animation: loading-4 1.5s linear forwards 1.8s;
+}
+.progress.lima .progress-bar{
+  border-color: #1ef13a;
+}
+.progress.lima .progress-left .progress-bar{
+  animation: loading-8 1.5s linear forwards 1.8s;
+}
+.progress.orangeRed .progress-bar{
+  border-color: #b61e04;
+}
+.progress.orangeRed .progress-left .progress-bar{
+  animation: loading-8 1.5s linear forwards 1.8s;
+}
 .progress.yellow .progress-bar{
   border-color: #fdc426;
 }
@@ -192,7 +221,7 @@ body{
       transform: rotate(0deg);
   }
   100%{
-      -webkit-transform: rotate(180deg);
+      -webkit-transform: rotate(170deg);
       transform: rotate(180deg);
   }
 }
@@ -236,9 +265,40 @@ body{
       transform: rotate(112deg);
   }
 } 
+@keyframes loading-6{
+  0%{
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100%{
+      -webkit-transform: rotate(80deg);
+      transform: rotate(80deg);
+  }
+} 
+@keyframes loading-7{
+  0%{
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100%{
+      -webkit-transform: rotate(75deg);
+      transform: rotate(75deg);
+  }
+} 
+@keyframes loading-8{
+  0%{
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100%{
+      -webkit-transform: rotate(170deg);
+      transform: rotate(170deg);
+  }
+}
 /*--------------------Fin del CSS de Hard & Soft Skills--------------------*/
+/*--------------------Principio del CSS de Proyectos Realizados--------------------*/
 
-
-.texto-proyect{
-margin-top: 150px;
+.proyect{
+margin: 10px;
+align-items: center;
 }
