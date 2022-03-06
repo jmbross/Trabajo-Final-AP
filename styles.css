@@ -236,6 +236,9 @@ body{
       transform: rotate(112deg);
   }
 } 
+/*--------------------Fin del CSS de Hard & Soft Skills--------------------*/
 
 
-/*--------------------Principio del CSS de Hard & Soft Skills--------------------*/
+.texto-proyect{
+margin-top: 150px;
+}
