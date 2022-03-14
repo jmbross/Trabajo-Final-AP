@@ -1,0 +1,23 @@
+/*--------------------Principio del CSS de Acerca de--------------------*/
+.title h3{
+  color: rgb(45, 45, 180); text-align: left; 
+}
+.title i{
+  color: black;
+  margin-left: 10px;
+}
+.title{
+  display: flex;
+  align-items: flex-start;
+}
+.foto-perfil{
+  margin-left: -40px;
+}
+.editar-banner{
+  display: flex;
+  align-items: flex-start;
+}
+.row{
+  margin-right: 0px;
+}
+/*--------------------Fin del CSS de Acerca de--------------------*/
