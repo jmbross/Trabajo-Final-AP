@@ -32,6 +32,7 @@ body{
   margin-bottom: 8px;
   margin-left: 40px;
 }
+
 /*--------------------Fin del Css del Header--------------------*/
 
 /*--------------------Principio del CSS de Acerca de--------------------*/
@@ -64,6 +65,9 @@ body{
 } 
 .img-timeline{
  align-items: center;
+}
+.edit{
+  display: none;
 }
 /*--------------------Fin del CSS de Educacion--------------------*/
 
@@ -301,4 +305,20 @@ body{
 .proyect{
 margin: 10px;
 align-items: center;
+}
+.card{
+  padding: 10px;
+  background-color: green;
+
+}
+.card-title{
+  text-align: center;
+  padding-top: 20px;
+}
+.card-text{
+  text-decoration-style: double;
+}
+/*--------------------Fin del CSS de Proyectos Realizados--------------------*/
+.progress-value-2{
+  font-size: 18px;
 }

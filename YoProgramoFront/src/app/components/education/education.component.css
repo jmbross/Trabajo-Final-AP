@@ -1,0 +1,11 @@
+ /*--------------------Principio del CSS de Educacion--------------------*/
+ .educacion h3{
+    color: rgb(45, 45, 180); margin: 30px; text-align: center;
+  } 
+  .img-timeline{
+   align-items: center;
+  }
+  .edit{
+    display: none;
+  }
+  /*--------------------Fin del CSS de Educacion--------------------*/
