@@ -308,6 +308,8 @@ align-items: center;
 }
 .card{
   padding: 10px;
+  background-color: green;
+
 }
 .card-title{
   text-align: center;
@@ -317,3 +319,6 @@ align-items: center;
   text-decoration-style: double;
 }
 /*--------------------Fin del CSS de Proyectos Realizados--------------------*/
+.progress-value-2{
+  font-size: 18px;
+}
